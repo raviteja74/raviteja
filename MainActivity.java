@@ -41,10 +41,7 @@ public class  MainActivity extends BaseActivity {
                     getString(R.string.heading_my_posts),
                     getString(R.string.heading_my_top_posts)
             };
-            @Override
-            public Fragment getItem(int position) {
-                return mFragments[position];
-            }
+           
             @Override
             public int getCount() {
                 return mFragments.length;
